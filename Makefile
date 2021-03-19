@@ -7,11 +7,11 @@ P1V2 = partie1_v2
 all: run
 
 partie1_v1:
-	$(CC) $(CC_FLAGS) src/partie1_v1/*.c -o $(P1V1)
+	$(CC) $(CC_FLAGS) src/partie1_v1.d/*.c -o $(P1V1)
 	./$(P1V1)
 
 partie1_v2:
-	$(CC) $(CC_FLAGS) src/partie1_v2/*.c -o $(P1V2)
+	$(CC) $(CC_FLAGS) src/partie1_v2.d/*.c -o $(P1V2)
 	./$(P1V2)
 
 run: compile
